@@ -1,0 +1,5 @@
+GET http://localhost:3000/
+###
+GET http://localhost:3000/compute/addition?num1=50&num2=4
+###
+POST http://localhost:3000/login
