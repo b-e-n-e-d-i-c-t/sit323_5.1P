@@ -1,11 +1,15 @@
 const express = require('express')
 const router = express.Router()
+const logger = require('../logger/logger')
+
 
 router.get('/addition', (req,res) => {
-    console.log('add endpoint called');
+    logger.serviceLogger.log('info','Addition API Called!')
+
     const num1 = Number(req.query.num1);
     const num2 = Number(req.query.num2);
     if (isNaN(num1) || isNaN(num2)) {
+        
         return invalidParameter()
   }
   const result = num1 + num2;
@@ -13,10 +17,11 @@ router.get('/addition', (req,res) => {
 })
 
 router.get('/subtraction', (req, res) => {
-    console.log("subtraction API called")
+    logger.serviceLogger.log('info','Subtraction API Called!')
     const num1 = Number(req.query.num1);
     const num2 = Number(req.query.num2);
     if(isNaN(num1) || isNaN(num2)){
+        
         return invalidParameter()
     }
 
@@ -25,10 +30,11 @@ router.get('/subtraction', (req, res) => {
 })
 
 router.get('/multiplication', (req, res) => {
-    console.log("multiplication endpoint called!")
+    logger.serviceLogger.log('info','Multiplication API Called!')
     const num1 = Number(req.query.num1);
     const num2 = Number(req.query.num2);
     if(isNaN(num1) || isNaN(num2)){
+        
         return invalidParameter()
     }
     const result = num1 * num2
@@ -36,12 +42,15 @@ router.get('/multiplication', (req, res) => {
 
 })
 router.get('/division', (req, res) => {
+    logger.serviceLogger.log('info','Division API Called!')
     const num1 = Number(req.query.num1)
     const num2 = Number(req.query.num2)
     if(isNaN(num1) || isNaN(num2)){
+        
         return invalidParameter()
     }
     if(num2 == 0){
+        logger.serviceLogger.log('error','CANNOT DIVIDE BY 0')
         return res.status(400).json({error: '!--CANNOT DIVIDE BY ZERO--!'})
     }
     const result = num1/num2
@@ -53,6 +62,7 @@ router.get('/division', (req, res) => {
 //the user tries to divide by 0.
 invalidParameter = () =>{
     console.log("ERROR: OCCURED")
+    logger.serviceLogger.log('error','Invalid Number!')
     return res.status(400).json({error:'Invalid input paramter(s): num1 and num2 must be numbers.'})
 }
 

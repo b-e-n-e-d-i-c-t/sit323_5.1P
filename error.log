@@ -1,0 +1,30 @@
+{
+  level: 'error',
+  message: 'Error in program!',
+  timestamp: '2023-04-15T08:13:58.292Z'
+}
+{
+  level: 'error',
+  message: 'Invalid Number!',
+  timestamp: '2023-04-15T08:16:21.143Z'
+}
+{
+  level: 'error',
+  message: 'Invalid Number!',
+  timestamp: '2023-04-15T08:24:02.032Z'
+}
+{
+  level: 'error',
+  message: 'Invalid Number!',
+  timestamp: '2023-04-15T08:24:02.033Z'
+}
+{
+  level: 'error',
+  message: 'Invalid Number!',
+  timestamp: '2023-04-15T08:24:38.503Z'
+}
+{
+  level: 'error',
+  message: 'Invalid Number!',
+  timestamp: '2023-04-15T08:24:52.574Z'
+}

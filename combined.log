@@ -1,0 +1,85 @@
+{
+  level: 'info',
+  message: 'Subtraction API Called!',
+  timestamp: '2023-04-15T08:13:58.289Z'
+}
+{
+  level: 'error',
+  message: 'Error in program!',
+  timestamp: '2023-04-15T08:13:58.292Z'
+}
+{
+  level: 'info',
+  message: 'Subtraction API Called!',
+  timestamp: '2023-04-15T08:16:00.207Z'
+}
+{
+  level: 'info',
+  message: 'Subtraction API Called!',
+  timestamp: '2023-04-15T08:16:21.142Z'
+}
+{
+  level: 'error',
+  message: 'Invalid Number!',
+  timestamp: '2023-04-15T08:16:21.143Z'
+}
+{
+  level: 'info',
+  message: 'Addition API Called!',
+  timestamp: '2023-04-15T08:19:29.210Z'
+}
+{
+  level: 'info',
+  message: 'Addition API Called!',
+  timestamp: '2023-04-15T08:20:05.275Z'
+}
+{
+  level: 'info',
+  message: 'Addition API Called!',
+  timestamp: '2023-04-15T08:20:09.279Z'
+}
+{
+  level: 'info',
+  message: 'Addition API Called!',
+  timestamp: '2023-04-15T08:21:30.557Z'
+}
+{
+  level: 'info',
+  message: 'Addition API Called!',
+  timestamp: '2023-04-15T08:22:10.494Z'
+}
+{
+  level: 'info',
+  message: 'Addition API Called!',
+  timestamp: '2023-04-15T08:24:02.028Z'
+}
+{
+  level: 'error',
+  message: 'Invalid Number!',
+  timestamp: '2023-04-15T08:24:02.031Z'
+}
+{
+  level: 'error',
+  message: 'Invalid Number!',
+  timestamp: '2023-04-15T08:24:02.032Z'
+}
+{
+  level: 'info',
+  message: 'Addition API Called!',
+  timestamp: '2023-04-15T08:24:38.498Z'
+}
+{
+  level: 'error',
+  message: 'Invalid Number!',
+  timestamp: '2023-04-15T08:24:38.503Z'
+}
+{
+  level: 'info',
+  message: 'Addition API Called!',
+  timestamp: '2023-04-15T08:24:52.572Z'
+}
+{
+  level: 'error',
+  message: 'Invalid Number!',
+  timestamp: '2023-04-15T08:24:52.574Z'
+}
